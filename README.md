@@ -39,7 +39,6 @@ You will build a comprehensive end-to-end machine learning project for bear spec
 - **Compute Resources**: CPU compute pool access for model training.
 - **External Access**: Policy allowing access to external data sources (GitHub).
 - **Python Knowledge**: Basic understanding of Python programming.
-- **Data Science Basics**: Familiarity with pandas, numpy, and basic statistics.
 
 ## Setup
 
