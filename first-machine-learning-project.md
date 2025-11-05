@@ -55,7 +55,7 @@ Before running the notebooks, ensure you configure your Snowflake Notebook envir
 2.  **External Access**: In the "External access" tab, select a policy that allows the notebook to access external data from GitHub.
 3.  **Packages**: Add the following packages via the "Packages" dropdown: `modin`, `scikit-learn`, and `snowflake-ml-python`.
 
-## The Bear Data set
+## The Bear Data Set
 
 ### About the data set
 The bear dataset is composed of two main parts:
