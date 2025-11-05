@@ -57,7 +57,7 @@ Before running the notebooks, ensure you configure your Snowflake Notebook envir
 
 ## The Bear Data Set
 
-### About the data set
+### About the Data Set
 The bear dataset is composed of two main parts:
 
 1. Tabular Data (`bear_raw_data.csv`): The first portion of the data contains physical measurements for each bear as expressed by the columns as follows:
@@ -104,7 +104,7 @@ The bear dataset is composed of two main parts:
   </tr>
 </table>
 
-### Identifying bear species
+### Identifying Bear Species
 
 These physical measurements are key differentiators between bear species. For example, the presence of a prominent shoulder hump (`shoulder_hump_height_cm`) and a "concave" or "dished" facial profile are characteristic of brown bears (Grizzly, Kodiak, Eurasian). 
 
