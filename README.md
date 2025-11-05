@@ -55,6 +55,63 @@ Before running the notebooks, ensure you configure your Snowflake Notebook envir
 2.  **External Access**: In the "External access" tab, select a policy that allows the notebook to access external data from GitHub.
 3.  **Packages**: Add the following packages via the "Packages" dropdown: `modin`, `scikit-learn`, and `snowflake-ml-python`.
 
+## The Bear Data set
+
+### About the data set
+The bear dataset is composed of two main parts:
+
+1. Tabular Data (`bear_raw_data.csv`): The first portion of the data contains physical measurements for each bear as expressed by the columns as follows:
+
+| Column                      | Description                                                  |
+| --------------------------- | ------------------------------------------------------------ |
+| `id`                        | A unique identifier for each bear instance.                  |
+| `species`                   | The species of the bear.                                     |
+| `body_mass_kg`              | The body mass of the bear, measured in kilograms (kg).         |
+| `shoulder_hump_height_cm`   | The height of the bear's shoulder hump, measured in centimeters (cm). |
+| `claw_length_cm`            | The length of the bear's claws, measured in centimeters (cm).  |
+| `snout_length_cm`           | The length of the bear's snout, measured in centimeters (cm).  |
+| `forearm_circumference_cm`  | The circumference of the bear's forearm, measured in centimeters (cm). |
+| `ear_length_cm`             | The length of the bear's ears, measured in centimeters (cm).   |
+
+2. Image Data (`images/` folder): The second portion is a collection of images, where each image corresponds to a unique ID from the tabular data (*e.g.* `ABB_01`, `EUR_01`, `GRZ_01` and `KDK_01`). This allows for visual analysis and the extraction of image-based features.
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="25%">
+      <img src="images/ABB_01.png" alt="American Black Bear" width="200">
+      <b>
+        American Black Bear
+      </b>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="images/EUR_01.png" alt="Eurasian Brown Bear" width="200">
+      <b>
+        Eurasian Brown Bear
+      </b>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="images/GRZ_01.png" alt="Grizzly Bear" width="200">
+      <b>
+        Grizzly Bear
+      </b>
+    </td>
+    <td align="center" valign="top" width="25%">
+      <img src="images/KDK_01.png" alt="Kodiak Bear" width="200">
+      <b>
+        Kodiak Bear
+      </b>
+    </td>
+  </tr>
+</table>
+
+### Identifying bear species
+
+These physical measurements are key differentiators between bear species. For example, the presence of a prominent shoulder hump (`shoulder_hump_height_cm`) and a "concave" or "dished" facial profile are characteristic of brown bears (Grizzly, Kodiak, Eurasian). 
+
+In contrast, the absence of a shoulder hump and a straight "Roman nose" facial profile are key features of the American Black Bear. Additionally, features related to paw structure, like the shorter, more curved claws (`claw_length_cm`) of an American Black Bear, are adapted for climbing, distinguishing them from the long, straighter claws of brown bears, which are built for digging.
+
+These and other defining features can also be deduced from machine learning efforts through exploratory data analysis (EDA) and feature analysis.
+
 ## Part 1: Data Operations and Feature Extraction
 
 This part of the project focuses on data ingestion, wrangling, and feature extraction using Snowflake's native capabilities.
