@@ -144,8 +144,8 @@ Congratulations! You've successfully built a complete end-to-end machine learnin
 
 ### Related Resources
 -   **Snowpark Documentation**: [https://docs.snowflake.com/en/developer-guide/snowpark/python/index.html](https://docs.snowflake.com/en/developer-guide/snowpark/python/index.html)
--   **Snowflake ML Documentation**: [https://docs.snowflake.com/en/developer-guide/snowflake-ml/overview]([https://docs.snowflake.com/en/user-guide/snowflake-ml/index.html](https://docs.snowflake.com/en/developer-guide/snowflake-ml/overview))
+-   **Snowflake ML Documentation**: [https://docs.snowflake.com/en/developer-guide/snowflake-ml/overview](https://docs.snowflake.com/en/user-guide/snowflake-ml/overview)
 -   **scikit-learn User Guide**: [https://scikit-learn.org/stable/user_guide.html](https://scikit-learn.org/stable/user_guide.html)
--   **Altair Visualization**: [https://altair-viz.github.io/](https://altair-viz.github.io/)
+-   **Altair Documentation**: [https://altair-viz.github.io/user_guide/api.html]([https://altair-viz.github.io/](https://altair-viz.github.io/user_guide/api.html))
 -   **Streamlit Documentation**: [https://docs.streamlit.io/](https://docs.streamlit.io/)
 -   **YouTube Playlist on Snowflake Notebooks**: [https://www.youtube.com/watch?v=YB1B6vcMaGE&list=PLavJpcg8cl1Efw8x_fBKmfA2AMwjUaeBI](https://www.youtube.com/watch?v=YB1B6vcMaGE&list=PLavJpcg8cl1Efw8x_fBKmfA2AMwjUaeBI)
