@@ -1,7 +1,7 @@
 author: Chanin Nantasenamat
 id: first-machine-learning-project
 summary: Build a complete, end-to-end machine learning project for classifying bear species using Snowflake Notebooks, Snowpark, Cortex AI, Streamlit, and Snowflake ML.
-categories: snowflake-site:taxonomy/solution-center/certification/quickstart, snowflake-site:taxonomy/product/ai, snowflake-site:taxonomy/snowflake-feature/model-development, snowflake-site:taxonomy/snowflake-feature/ml-functions, snowflake-site:taxonomy/snowflake-feature/unstructured-data-analysis
+categories: snowflake-site:taxonomy/solution-center/certification/quickstart, snowflake-site:taxonomy/product/ai, snowflake-site:taxonomy/snowflake-feature/model-development, snowflake-site:taxonomy/snowflake-feature/ml-functions, snowflake-site:taxonomy/snowflake-feature/unstructured-data-analysis, snowflake-site:taxonomy/product/applications-and-collaboration
 language: en
 environments: web
 status: Published
