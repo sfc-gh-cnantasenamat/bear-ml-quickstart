@@ -48,7 +48,7 @@ To follow this tutorial, you will use the files from the following GitHub reposi
 -   **Project Files**: The full set of Snowflake Notebooks (`.ipynb`) and the Streamlit app (`.py`) are available at:
     -   [https://github.com/Snowflake-Labs/snowflake-demo-notebooks/tree/main/First_Machine_Learning_Project](https://github.com/Snowflake-Labs/snowflake-demo-notebooks/tree/main/First_Machine_Learning_Project)
 -   **Dataset**: The bear dataset (CSV and images) is available at:
-    -   [https://github.com/dataprofessor/bear-dataset/tree/master](https://github.com/dataprofessor/bear-dataset/tree/master)
+    -   [https://github.com/dataprofessor/bear-dataset/](https://github.com/dataprofessor/bear-dataset/)
 
 ### Notebook Configuration
 Before running the notebooks, ensure you configure your Snowflake Notebook environment:
