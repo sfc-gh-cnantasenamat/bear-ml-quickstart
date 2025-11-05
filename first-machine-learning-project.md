@@ -75,34 +75,9 @@ The bear dataset is composed of two main parts:
 
 2. Image Data (`images/` folder): The second portion is a collection of images, where each image corresponds to a unique ID from the tabular data (*e.g.* `ABB_01`, `EUR_01`, `GRZ_01` and `KDK_01`). This allows for visual analysis and the extraction of image-based features.
 
-<table>
-  <tr>
-    <td align="center" valign="top" width="25%">
-      <img src="assets/ABB_01.png" alt="American Black Bear" width="200">
-      <b>
-        American Black Bear
-      </b>
-    </td>
-    <td align="center" valign="top" width="25%">
-      <img src="assets/EUR_01.png" alt="Eurasian Brown Bear" width="200">
-      <b>
-        Eurasian Brown Bear
-      </b>
-    </td>
-    <td align="center" valign="top" width="25%">
-      <img src="assets/GRZ_01.png" alt="Grizzly Bear" width="200">
-      <b>
-        Grizzly Bear
-      </b>
-    </td>
-    <td align="center" valign="top" width="25%">
-      <img src="assets/KDK_01.png" alt="Kodiak Bear" width="200">
-      <b>
-        Kodiak Bear
-      </b>
-    </td>
-  </tr>
-</table>
+| American Black Bear | Eurasian Brown Bear | Grizzly Bear | Kodiak Bear |
+|:---:|:---:|:---:|:---:|
+| <img src="assets/ABB_01.png" alt="American Black Bear" width="200"><br>**American Black Bear** | <img src="assets/EUR_01.png" alt="Eurasian Brown Bear" width="200"><br>**Eurasian Brown Bear** | <img src="assets/GRZ_01.png" alt="Grizzly Bear" width="200"><br>**Grizzly Bear** | <img src="assets/KDK_01.png" alt="Kodiak Bear" width="200"><br>**Kodiak Bear** |
 
 ### Identifying Bear Species
 
